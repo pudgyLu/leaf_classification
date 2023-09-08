@@ -1,2 +1,17 @@
 # leaf_classification
-Kaggle: Classify Leaves
+Kaggle: [Classify Leaves](https://www.kaggle.com/competitions/classify-leaves)
+
+## Requirements
+
+
+
+## Usage
+
+```shell
+python leaf_classify
+```
+
+
+
+
+
