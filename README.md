@@ -1,12 +1,24 @@
 # leaf_classification
-Kaggle: [Classify Leaves](https://www.kaggle.com/competitions/classify-leaves)
-Private score: 0.94181
+Kaggle: [Classify Leaves](https://www.kaggle.com/competitions/classify-leaves), Private score: 0.94181
 
 
-## model
-* pre-trained model: resnext50_32x4d 
+## EDA
+### labels
 
-* finetune: fc with xavier, 10x lr
+### info
+
+### xxx
+
+## Model
+* pre-trained model
+  * resnet34
+  * resnet50
+  * resnext50_32x4d
+
+* finetune
+  * fc initialize
+  * fc initialize with xavier, 10x lr
+  * freeze params without fc, 10x lr
 
 * params
 
