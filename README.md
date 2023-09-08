@@ -2,13 +2,6 @@
 Kaggle: [Classify Leaves](https://www.kaggle.com/competitions/classify-leaves), Private score: 0.94181
 
 
-## EDA
-### labels
-
-### info
-
-### xxx
-
 ## Data Aug
 
 ```python
