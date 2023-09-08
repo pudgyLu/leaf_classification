@@ -9,6 +9,21 @@ Kaggle: [Classify Leaves](https://www.kaggle.com/competitions/classify-leaves), 
 
 ### xxx
 
+## Data Aug
+
+```python
+# trans_mode (string): [
+#           horizonflip, 
+#           rotation, 
+#           brightness, 
+#           RandomVerticalFlip
+#   ]
+  transforms.RandomHorizontalFlip(p=1),  # 水平翻转
+  transforms.RandomRotation(180, expand=True),  # 随机+-180旋转
+  transforms.ColorJitter(brightness=0.5),  # 亮度
+  transforms.RandomVerticalFlip(1),  # 垂直翻转
+```
+
 ## Model
 * pre-trained model
   * resnet34
